@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:wght@700&family=Ysabeau+Infant:wght@400&display=swap');
+
+.episode-page {
+    /* border: 1px solid red; */
+    padding: 20px;
+    margin-bottom: 10px;
+    max-width: 1200px;
+}
+
+.episode-container {
+    max-width: 1200px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.episode-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Cardo', serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+    text-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+    /* 16:9 aspect ratio (9 / 16 = 0.5625) */
+    position: relative;
+    overflow: hidden;
+    border: 1px solid black;
+    border-radius: 20px 20px 0px 0px;
+    /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6); */
+}
+
+.embed-responsive-item {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.episode-description {
+    border: 1px solid black;
+    border-radius: 0px 0px 20px 20px;
+    background-color: rgba(0, 0, 0, 0.5);;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    font-size: 1.15rem;
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    font-family: 'Ysabeau Infant', sans-serif;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+}
+
+.comments-container {
+    /* border: cyan 2px solid; */
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+.comment-card {
+    /* border: 2px solid #ccc; */
+    padding-bottom: 5px; 
+    padding-top: 10px;
+    border-bottom: rgba(255, 255, 255, 0.1) 2px solid;
+}
+
+
+.comment-username {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding-right: 20px;
+}
+
+.comment-text {
+    font-size: 1rem;
+    padding-top: 2px;
+}
+
+.delete-comment-button {
+    font-size: 0.7rem;
+    background-color:rgb(242, 242, 242) ;
+    color: #ff0606;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.delete-comment-button:hover {
+    background-color:rgb(255, 0, 0) ;
+    color: #000000;
+}
+
+p {
+    line-height: 1.2;
+}
+
+/* video ratio and box-shadow from ChatGPT */

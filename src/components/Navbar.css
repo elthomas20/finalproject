@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:wght@700&family=Ysabeau+Infant:wght@600&display=swap');
+
+.navbar-content {
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.navbar-title {
+  color:black;
+  font-family: "Cardo", sans-serif;
+  padding-right: 1rem;
+  margin-bottom: 1px;
+}
+
+.logo-image {
+  width: 45px;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: black;
+  font-family: 'Ysabeau Infant', sans-serif;
+  font-size: 1.3rem
+}
+
+.navbar-link:hover {
+  color: rgb(101, 54, 112);
+} 
